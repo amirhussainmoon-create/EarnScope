@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#07111f">
+  <title>EarnScope</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #07111f;
+      color: #f1f5ff;
+      font-family: Arial, sans-serif;
+    }
+    header {
+      padding: 22px 18px;
+      background: #0c1b30;
+      border-bottom: 1px solid #173b60;
+    }
+    .brand { font-size: 25px; font-weight: bold; }
+    .brand span { color: #20d9f5; }
+    .tagline { color: #9bb0ca; margin-top: 7px; font-size: 13px; }
+    main { max-width: 650px; margin: auto; padding: 18px; }
+    .welcome { color: #9bb0ca; margin-bottom: 15px; }
+    .balance {
+      background: linear-gradient(135deg, #103d70, #071c35);
+      border: 1px solid #1762a2;
+      padding: 22px;
+      border-radius: 18px;
+      margin-bottom: 22px;
+    }
+    .balance small { color: #b9d5f5; }
+    .amount { font-size: 30px; font-weight: bold; margin-top: 10px; }
+    h2 { font-size: 18px; margin: 25px 0 13px; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+    }
+    .item {
+      background: #101f34;
+      border: 1px solid #203b5c;
+      padding: 17px 12px;
+      border-radius: 15px;
+      min-height: 105px;
+    }
+    .emoji { font-size: 25px; margin-bottom: 10px; }
+    .item strong { font-size: 14px; }
+    .item p { color: #9bb0ca; font-size: 12px; margin-bottom: 0; }
+    .notice {
+      background: #0d1b2d;
+      border: 1px solid #203b5c;
+      color: #9bb0ca;
+      padding: 15px;
+      border-radius: 12px;
+      line-height: 1.6;
+      font-size: 13px;
+      margin-top: 20px;
+    }
+    footer {
+      text-align: center;
+      color: #7388a4;
+      padding: 25px 10px;
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">Earn 💰 <span>Scope</span></div>
+    <div class="tagline">Learn Skills • Complete Tasks • Earn Rewards</div>
+  </header>
+
+  <main>
+    <div class="welcome">Welcome to EarnScope!</div>
+
+    <section class="balance">
+      <small>My Balance (Demo)</small>
+      <div class="amount">৳ 0.00</div>
+      <small>Your earnings will appear here.</small>
+    </section>
+
+    <h2>Explore EarnScope</h2>
+    <section class="grid">
+      <div class="item">
+        <div class="emoji">📋</div>
+        <strong>Daily Tasks</strong>
+        <p>Complete available tasks</p>
+      </div>
+      <div class="item">
+        <div class="emoji">🔄</div>
+        <strong>Exchange Zone</strong>
+        <p>Admin-approved tasks</p>
+      </div>
+      <div class="item">
+        <div class="emoji">🛍️</div>
+        <strong>Product Zone</strong>
+        <p>Sell products and earn commission</p>
+      </div>
+      <div class="item">
+        <div class="emoji">🎯</div>
+        <strong>Mission Zone</strong>
+        <p>Explore available missions</p>
+      </div>
+      <div class="item">
+        <div class="emoji">📢</div>
+        <strong>Ads Zone</strong>
+        <p>View available advertisements</p>
+      </div>
+      <div class="item">
+        <div class="emoji">📣</div>
+        <strong>Social Promotion</strong>
+        <p>Explore promotion tasks</p>
+      </div>
+      <div class="item">
+        <div class="emoji">💳</div>
+        <strong>Withdraw</strong>
+        <p>Payment features coming later</p>
+      </div>
+      <div class="item">
+        <div class="emoji">👤</div>
+        <strong>My Profile</strong>
+        <p>Account features coming later</p>
+      </div>
+    </section>
+
+    <div class="notice">
+      Welcome to EarnScope. This is the first design preview.
+      Tasks, real balances, commissions and payments are not
+      active yet.
+    </div>
+  </main>
+
+  <footer>EarnScope © 2026</footer>
+</body>
+</html>
